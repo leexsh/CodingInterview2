@@ -50,6 +50,17 @@ public:
 
     }
 };
+
+/*
+    进阶：有两个排序的数组a b 全部归并到a中 仍然是按照从小到大的顺序
+*/
+void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
+    if(m <= 0 || n <= 0){
+        return;
+    }        
+    int len = m + n;
+    while(m >= 0 && n >= 0){}
+}
 int main(){
 
     // cout<<"iiiii"<<endl; 
