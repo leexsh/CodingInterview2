@@ -88,6 +88,36 @@ public:
     }
 };
 
+// 右边不动 左边逐渐靠近最小值
+class Solution2 {
+public:
+    int minNumberInRotateArray(vector<int> rotateArray) {
+       if(rotateArray.empty()){
+           return 0;
+       }
+       int left = 0;
+       int right = rotateArray.size() - 1;
+       while(rotateArray[left] > rotateArray[right]){
+           int mid = left + (right - left) / 2;
+           if(rotateArray[mid] >= rotateArray[left]){
+               left = mid + 1;
+           }
+           else if(rotateArray[mid] < rotateArray[right]){
+               right = mid;
+           }
+       }
+       return rotateArray[left];
+    }
+    int findMin(vector<int> & nums, int left, int right){
+        int res = nums[left];
+        for(auto i : nums){
+            if(i < res){
+                res = i;
+            }
+        }
+        return res;
+    }
+};
 
 int main(){
     // vector<int> vec{3,4,5,1,2};
