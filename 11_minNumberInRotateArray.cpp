@@ -57,9 +57,7 @@ public:
         int right = rotateArray.size() - 1;
         // mid
         int mid = 0;
-        if(rotateArray[left] == rotateArray[right] && rotateArray[left] == rotateArray[mid]){
-            return findMin(rotateArray, left, right);
-        }
+        
         while(rotateArray[left] >= rotateArray[right]){
             // 左右挨着 最小是右
             if(right - left == 1){
@@ -68,6 +66,9 @@ public:
             }
             // 改变左右值
             mid = left + ((right - left)>>1);
+            if(rotateArray[left] == rotateArray[right] && rotateArray[left] == rotateArray[mid]){
+                return findMin(rotateArray, left, right);
+            }
             if(rotateArray[left] <= rotateArray[mid]){
                 left = mid;
             }
@@ -79,9 +80,9 @@ public:
     }
     int findMin(vector<int> & nums, int left, int right){
         int res = nums[left];
-        for(auto i : nums){
-            if(i < res){
-                res = i;
+        for(auto i = left; i <= right; i++ ){
+            if(nums[i] < res){
+                res = nums[i];
             }
         }
         return res;
