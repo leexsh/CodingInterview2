@@ -1,10 +1,10 @@
 # CodingInterview2
-## 01_AssignmentOperator            赋值运算符函数                  页数P27
-## 02_Signleton                     单例模式                        页数P32
-## 03_DuplicationInArray            数组中的重复的数字               页数P39
-## 03_1_DuplicationInArrayNoEdit    不修改数组找出重复的数字         页数P41
-## 04_find                          二维数组中查找                   页数P44
-## 05_replaceSpace                  替换空格                         页数P51
+## 01_AssignmentOperator  *****     赋值运算符函数    *****         页数P27
+## 02_Signleton             *****        单例模式       *****                 页数P32
+## 03_DuplicationInArray     *****       数组中的重复的数字 *****              页数P39
+## 03_1_DuplicationInArrayNoEdit *****   不修改数组找出重复的数字   *****      页数P41
+## 04_find                      *****    二维数组中查找     *****              页数P44
+## 05_replaceSpace          *****        替换空格      *****                   页数P51
 ## 06_printList                     从尾到头打印链表                 页数P58
 ## 07_reConstructBinaryTree         重建二叉树                       页数P62
 ## 08_GetNext                       二叉树的下一个节点                页数P65
@@ -26,8 +26,8 @@
 ## 23_EntryNodeOfLoop               链表中环的入口结点               页数P139
 ## 24_ReverseList                   翻转链表                        页数P142
 ## 25_Merge                         合并两个排序链表                 页数P145
-## 页数P32
-## 页数P32
+## 26_HasSubtree                    树的子结构                      页数P148
+## 页数P150
 ## 页数P32
 ## 页数P32
 ## 页数P32
