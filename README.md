@@ -1,5 +1,5 @@
 # CodingInterview2
-## 01_AssignmentOperator  &emsp &emsp &emsp          赋值运算符函数    &emsp &emsp              页数P27
+## 01_AssignmentOperator            赋值运算符函数                  页数P27
 ## 02_Signleton                     单例模式                        页数P32
 ## 03_DuplicationInArray            数组中的重复的数字               页数P39
 ## 03_1_DuplicationInArrayNoEdit    不修改数组找出重复的数字         页数P41
@@ -27,7 +27,14 @@
 ## 24_ReverseList                   翻转链表                        页数P142
 ## 25_Merge                         合并两个排序链表                 页数P145
 ## 26_HasSubtree                    树的子结构                      页数P148
-## 页数P150
+## 27_Mirror                        二叉树的镜像                    页数P150
+## 28_isSymmetrical                 对称的二叉树                    页数P159
+## 
+## 30_minStack                      包含min函数的栈                 页数P165
+## 页数P32
+## 32_PrintFromTopToBottom          从上到下打印二叉树              页数P171
+## 32_1_Print                       将二叉树打印成多行              页数P174
+## 32_2_Print                       之字型打印儿二叉树              页数P176
 ## 页数P32
 ## 页数P32
 ## 页数P32
@@ -49,14 +56,7 @@
 ## 页数P32
 ## 页数P32
 ## 页数P32
-## 页数P32
-## 页数P32
-## 页数P32
-## 页数P32
-## 页数P32
-## 页数P32
-## 页数P32
-## 页数P32
+## 55_deepOfTree                二叉树的深度                        页数P271
 ## 页数P32
 ## 页数P32
 ## 页数P32
