@@ -52,19 +52,21 @@
 ## 页数P32
 ## 47_maxValueofGift                礼物的最大价值                  页数P233
 ## 页数P32
-## 49_GetUglyNumber                 丑数                            页数P240
-## 55_deepOfTree                    两个链表的第一个公共结点         页数P253
+## 49_GetUglyNumber                 丑数                            页数P240 
+## 50_FirstNotRepeatingChar         第一个只出现一次的字符           页数p243
+## 50_1_FirstAppearingOnce          字符流中第一个不重复的字符       页数247
+## 52_FindFirstCommonNode           两个链表的第一个公共结点         页数P253
 ## 页数P32
 ## 页数P32
-## 55_deepOfTree                    二叉树的深度                        页数P271
-## 56_FindNumsAppearOnce            数组中只出现一次的数字              页数P275
+## 55_deepOfTree                    二叉树的深度                    页数P271
+## 56_FindNumsAppearOnce            数组中只出现一次的数字           页数P275
+## 57_FindNumbersWithSum            和为S的两个数组                 页数P280
+## 57_1_FindContinuousSequence      和为s的连续证书序列             页数P282
+##               翻转单词顺序列                  页数P284
 ## 页数P32
 ## 页数P32
 ## 页数P32
 ## 页数P32
-## 页数P32
-## 页数P32
-## 页数P32
-## 页数P32
+## 63_MaxDiff                       买买股票的最大利润              页数P304
 ## 页数P32
 

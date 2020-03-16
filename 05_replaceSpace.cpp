@@ -54,16 +54,55 @@ public:
 /*
     进阶：有两个排序的数组a b 全部归并到a中 仍然是按照从小到大的顺序
 */
-void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
-    if(m <= 0 || n <= 0){
-        return;
-    }        
-    int len = m + n;
-    while(m >= 0 && n >= 0){}
-}
+class Solution{
+public:
+    string replaceSpace(string s)
+    {
+        string ss = "";
+        if(s.empty()){
+            return ss;
+        }
+        for(auto i : s){
+            if(i == ' '){
+                ss += "%20";
+            }
+            else
+            {
+                ss += i;
+            }
+        }
+        return ss;
+    }
+};
 int main(){
 
     // cout<<"iiiii"<<endl; 
     system("pause");
     return 0;
 }
+
+class Solution {
+public:
+    int minArray(vector<int>& numbers) {
+        int low = 0;
+        int high = numbers.size() - 1;
+        int mid;
+        while(low < high)
+        {
+            mid = low + (high - low) / 2;
+            if((low - high) == 1)
+            {
+                return high;
+            }
+            else if(numbers[mid] > numbers[low])
+            {
+                low = mid;
+            }
+            else if(numbers[mid] < numbers[high])
+            {
+                high = mid;
+            }
+        }
+        return 0;
+    }
+};

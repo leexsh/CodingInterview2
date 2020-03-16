@@ -52,6 +52,36 @@ public:
 
     }
 };
+
+class Solution {
+public:
+    vector<int> exchange(vector<int>& nums) {
+        vector<int> vec(nums.size(), 0);
+        if(nums.empty())
+        {
+            return vec;
+        }
+        int count = 0;
+        for(int i = 0; i < nums.size(); i++)
+        {
+            if(nums[i] & 1 == 1){
+                count++;
+            }
+        }
+        int j = 0;
+        for(int i = 0; i < nums.size(); i++)
+        {
+            if((nums[i]&1) == 1){
+                vec[j++] = nums[i];
+            }
+            else if((nums[i] & 1) == 0)
+            {
+                vec[count++] = nums[i];
+            }
+        }
+        return vec;
+    }
+};
 int main(){
 
     // cout<<"iiiii"<<endl; 
