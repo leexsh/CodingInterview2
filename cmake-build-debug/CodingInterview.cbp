@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CodingInterview"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Code/CodingInterview1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CodingInterview">
+				<Option output="D:/Code/CodingInterview1/cmake-build-debug/CodingInterview.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/CodingInterview1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 CodingInterview"/>
+					<CompileFile command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CodingInterview/fast">
+				<Option output="D:/Code/CodingInterview1/cmake-build-debug/CodingInterview.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/CodingInterview1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 CodingInterview/fast"/>
+					<CompileFile command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Code/CodingInterview1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Code/CodingInterview1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CodingInterview1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Code/CodingInterview1/Code/01_AssignmentOperator.cpp">
+			<Option target="CodingInterview"/>
+		</Unit>
+		<Unit filename="D:/Code/CodingInterview1/test.cpp">
+			<Option target="CodingInterview"/>
+		</Unit>
+		<Unit filename="D:/Code/CodingInterview1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

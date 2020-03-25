@@ -68,7 +68,7 @@ CString & CString::operator=(const CString &str){
 
 
 int main(){
-
+    cout<<"xxx"<<endl;
     
     system("pause");
     return 0;
