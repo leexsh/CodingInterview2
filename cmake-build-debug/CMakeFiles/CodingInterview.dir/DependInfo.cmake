@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Code/CodingInterview1/Code/01_AssignmentOperator.cpp" "D:/Code/CodingInterview1/cmake-build-debug/CMakeFiles/CodingInterview.dir/Code/01_AssignmentOperator.cpp.obj"
-  "D:/Code/CodingInterview1/test.cpp" "D:/Code/CodingInterview1/cmake-build-debug/CMakeFiles/CodingInterview.dir/test.cpp.obj"
+  "D:/Code/CodingInterview/Code/01_AssignmentOperator.cpp" "D:/Code/CodingInterview/cmake-build-debug/CMakeFiles/CodingInterview.dir/Code/01_AssignmentOperator.cpp.obj"
+  "D:/Code/CodingInterview/test.cpp" "D:/Code/CodingInterview/cmake-build-debug/CMakeFiles/CodingInterview.dir/test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

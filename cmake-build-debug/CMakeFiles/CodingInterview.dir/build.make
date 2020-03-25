@@ -42,10 +42,10 @@ RM = D:\software\CLion2019\bin\cmake\win\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Code\CodingInterview1
+CMAKE_SOURCE_DIR = D:\Code\CodingInterview
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Code\CodingInterview1\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Code\CodingInterview\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CodingInterview.dir/depend.make
@@ -58,29 +58,29 @@ include CMakeFiles/CodingInterview.dir/flags.make
 
 CMakeFiles/CodingInterview.dir/test.cpp.obj: CMakeFiles/CodingInterview.dir/flags.make
 CMakeFiles/CodingInterview.dir/test.cpp.obj: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\CodingInterview1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CodingInterview.dir/test.cpp.obj"
-	D:\software\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CodingInterview.dir\test.cpp.obj -c D:\Code\CodingInterview1\test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\CodingInterview\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CodingInterview.dir/test.cpp.obj"
+	D:\software\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CodingInterview.dir\test.cpp.obj -c D:\Code\CodingInterview\test.cpp
 
 CMakeFiles/CodingInterview.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CodingInterview.dir/test.cpp.i"
-	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\CodingInterview1\test.cpp > CMakeFiles\CodingInterview.dir\test.cpp.i
+	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\CodingInterview\test.cpp > CMakeFiles\CodingInterview.dir\test.cpp.i
 
 CMakeFiles/CodingInterview.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CodingInterview.dir/test.cpp.s"
-	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\CodingInterview1\test.cpp -o CMakeFiles\CodingInterview.dir\test.cpp.s
+	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\CodingInterview\test.cpp -o CMakeFiles\CodingInterview.dir\test.cpp.s
 
 CMakeFiles/CodingInterview.dir/Code/01_AssignmentOperator.cpp.obj: CMakeFiles/CodingInterview.dir/flags.make
 CMakeFiles/CodingInterview.dir/Code/01_AssignmentOperator.cpp.obj: ../Code/01_AssignmentOperator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\CodingInterview1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CodingInterview.dir/Code/01_AssignmentOperator.cpp.obj"
-	D:\software\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CodingInterview.dir\Code\01_AssignmentOperator.cpp.obj -c D:\Code\CodingInterview1\Code\01_AssignmentOperator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\CodingInterview\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CodingInterview.dir/Code/01_AssignmentOperator.cpp.obj"
+	D:\software\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CodingInterview.dir\Code\01_AssignmentOperator.cpp.obj -c D:\Code\CodingInterview\Code\01_AssignmentOperator.cpp
 
 CMakeFiles/CodingInterview.dir/Code/01_AssignmentOperator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CodingInterview.dir/Code/01_AssignmentOperator.cpp.i"
-	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\CodingInterview1\Code\01_AssignmentOperator.cpp > CMakeFiles\CodingInterview.dir\Code\01_AssignmentOperator.cpp.i
+	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\CodingInterview\Code\01_AssignmentOperator.cpp > CMakeFiles\CodingInterview.dir\Code\01_AssignmentOperator.cpp.i
 
 CMakeFiles/CodingInterview.dir/Code/01_AssignmentOperator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CodingInterview.dir/Code/01_AssignmentOperator.cpp.s"
-	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\CodingInterview1\Code\01_AssignmentOperator.cpp -o CMakeFiles\CodingInterview.dir\Code\01_AssignmentOperator.cpp.s
+	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\CodingInterview\Code\01_AssignmentOperator.cpp -o CMakeFiles\CodingInterview.dir\Code\01_AssignmentOperator.cpp.s
 
 # Object files for target CodingInterview
 CodingInterview_OBJECTS = \
@@ -96,7 +96,7 @@ CodingInterview.exe: CMakeFiles/CodingInterview.dir/build.make
 CodingInterview.exe: CMakeFiles/CodingInterview.dir/linklibs.rsp
 CodingInterview.exe: CMakeFiles/CodingInterview.dir/objects1.rsp
 CodingInterview.exe: CMakeFiles/CodingInterview.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Code\CodingInterview1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CodingInterview.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Code\CodingInterview\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CodingInterview.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CodingInterview.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +109,6 @@ CMakeFiles/CodingInterview.dir/clean:
 .PHONY : CMakeFiles/CodingInterview.dir/clean
 
 CMakeFiles/CodingInterview.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Code\CodingInterview1 D:\Code\CodingInterview1 D:\Code\CodingInterview1\cmake-build-debug D:\Code\CodingInterview1\cmake-build-debug D:\Code\CodingInterview1\cmake-build-debug\CMakeFiles\CodingInterview.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Code\CodingInterview D:\Code\CodingInterview D:\Code\CodingInterview\cmake-build-debug D:\Code\CodingInterview\cmake-build-debug D:\Code\CodingInterview\cmake-build-debug\CMakeFiles\CodingInterview.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CodingInterview.dir/depend
 
